@@ -1,5 +1,6 @@
 body {
   background-color: rgb(246, 234, 220);
+  font-family: Plusjakartasans, sans-serif;
 }
 .nav-bar {
   display: flex;
@@ -28,6 +29,13 @@ body {
   font-family: Plusjakartasans, sans-serif;
   border-radius: 10px;
 }
+
+/* This is section one  */
+
+.section1{
+  overflow: hidden;
+}
+
 .header-title {
   display: flex;
   flex-direction: column;
@@ -35,14 +43,17 @@ body {
   line-height: 123px;
   letter-spacing: 1px;
 }
+
 .grow {
   color: #ff4066;
 }
+
 .header-details {
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 40px;
 }
+
 .button-head {
   background-color: black;
   color: white;
@@ -52,11 +63,151 @@ body {
   font-family: Plusjakartasans, sans-serif;
   border-radius: 10px;
 }
+
 .section1{
     display: flex;
     margin-left: 120px;
 }
+
 .image-head{
     mix-blend-mode: darken;
     width: 100%;
+    width: 1000px;
+    height: 1000px;
+    padding-left: 200px;
+}
+
+.moved{
+  font-family: Plusjakartasans, sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #1a1a1a;
+  width: 500px;
+}
+                        
+.details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details img{
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.evans{
+  width: 400px;
+  font-family: Plusjakartasans, sans-serif;
+}
+
+.evans h2{
+  color: black;
+  font-size: 18px;
+  font-weight: 700px;
+}
+
+.evans p{
+  font-size: 18px;
+  line-height: 36px;
+  color: #1a1a1a;
+  margin-top: -18px;
+}
+/* This is the second section */
+
+
+/* This is section3 */
+.section3{
+  /* background-color: blue; */
+  padding: 20px 0px 50px;
+  background-color: rgb(245,246,247);
+}
+
+.section3 img{
+  margin: 70px 0px 0px;
+  padding-left: 100px;
+}
+
+.section3 .growth{
+  text-align: center;
+}
+
+.section3 .growth .first-paragraphy{
+  font-size: 15px;
+  color: gray;
+  font-weight: bold;
+}
+
+.section3 .growth h1{
+  font-size: 64px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section3 .growth .second-paragraphy{
+  font-size: 24px;
+  color: black;
+  padding: 0px 370px 0px;
+}
+
+/* Section4 */
+
+.section4{
+  background-color: rgb(245,246,247);
+
+}
+
+hr{
+  width: 70%;
+  padding: 0px 80px 0px;
+}
+
+.section4 .ads{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+  margin-bottom: 50px;
+}
+
+.section4 .ads img{
+  /* background-color: gray; */
+  /* height: 100px;
+  width: 100px; */
+  border: 12px rgba(128, 128, 128, 0.105) solid;
+  /* border: 12px rgba(228, 210, 188, 0.479) solid; */
+  border-radius: 30px;
+}
+
+.section4 .partner{
+  /* width: 80%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0px 300px 0px;
+}
+
+.section4 .partner .google-partner img{
+  height: 120px;
+  width: 120px;
+}
+
+.section4 .partner .microsoft-partner img{
+  height: 60px;
+  width: 250px;
+  
+}
+
+.section4 .partner .meta-partner img{
+  height: 120px;
+  width: 120px;
+}
+
+.section4 .partner .tiktok-partner img{
+  height: 120px;
+  width: 120px;
 }
